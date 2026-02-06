@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         float currentScale = Mathf.Abs(transform.localScale.x); //take absolute value of the current x scale, this is always positive
 
 
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x * 5f, rb.linearVelocity.y);
+        //rb.linearVelocity = new Vector2(rb.linearVelocity.x * 5f, rb.linearVelocity.y);
 
         if (State == Playstates.Move)
         {
